@@ -35,6 +35,14 @@ cd Intune-device-dashboard
 .\Export-IntuneDashboard.ps1 -MinimumUBR_26100 8037 -MinimumUBR_26200 8037 -MaxBitLockerRunStates 5000 -MaxDefenderDetailQueries 5000 -MaxInventoryRunStates 5000 -MaxSecureBootRunStates 5000 -OpenReport
 ```
 
+## Screenshots
+
+<img width="1895" height="758" alt="image" src="https://github.com/user-attachments/assets/a8c7c38c-8743-4164-add8-e0fcab83bea3" />
+<img width="1902" height="972" alt="image" src="https://github.com/user-attachments/assets/a329558b-b4ca-434e-8167-f7126f069466" />
+<img width="1903" height="1061" alt="image" src="https://github.com/user-attachments/assets/5d872b18-fdd5-47a0-aca8-3121ba4c1828" />
+<img width="1904" height="1059" alt="image" src="https://github.com/user-attachments/assets/43501606-8224-4126-ab22-251850a41ecb" />
+
+
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
