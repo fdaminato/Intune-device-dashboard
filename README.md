@@ -37,7 +37,8 @@ npm install
 ```
 
 ## Screenshots
-<img width="1912" height="914" alt="image" src="https://github.com/user-attachments/assets/878eaacf-e87f-4b0e-9b2e-14461672aeae" />
+<img width="1794" height="2848" alt="image" src="https://github.com/user-attachments/assets/0acb0bc3-43af-454b-b8b3-7d030719c795" />
+
 
 
 ## License
