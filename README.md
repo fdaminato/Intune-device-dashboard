@@ -27,7 +27,6 @@
 ```bash
 git clone https://github.com/fdaminato/Intune-device-dashboard
 cd Intune-device-dashboard
-npm install
 ```
 
 ## Usage
