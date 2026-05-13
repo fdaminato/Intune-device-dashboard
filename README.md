@@ -24,6 +24,8 @@
 
 ## Installation
 
+Add remediation script in Intune, wait some time for the script to be applied.
+
 ```bash
 git clone https://github.com/fdaminato/Intune-device-dashboard
 cd Intune-device-dashboard
