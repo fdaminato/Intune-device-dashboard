@@ -36,11 +36,6 @@ npm install
 .\Export-IntuneDashboard.ps1 -MinimumUBR_26100 8037 -MinimumUBR_26200 8037 -MaxBitLockerRunStates 5000 -MaxDefenderDetailQueries 5000 -MaxInventoryRunStates 5000 -MaxSecureBootRunStates 5000 -OpenReport
 ```
 
-## Screenshots
-<img width="1794" height="2848" alt="image" src="https://github.com/user-attachments/assets/0acb0bc3-43af-454b-b8b3-7d030719c795" />
-
-
-
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
