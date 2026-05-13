@@ -37,7 +37,7 @@ cd Intune-device-dashboard
 
 ## Screenshots
 
-<img width="1895" height="758" alt="image" src="https://github.com/user-attachments/assets/a8c7c38c-8743-4164-add8-e0fcab83bea3" />
+<img width="1904" height="752" alt="image" src="https://github.com/user-attachments/assets/c2a0eda8-4b80-4429-a03a-2aca102507f5" />
 <img width="1902" height="972" alt="image" src="https://github.com/user-attachments/assets/a329558b-b4ca-434e-8167-f7126f069466" />
 <img width="1903" height="1061" alt="image" src="https://github.com/user-attachments/assets/5d872b18-fdd5-47a0-aca8-3121ba4c1828" />
 <img width="1904" height="1059" alt="image" src="https://github.com/user-attachments/assets/43501606-8224-4126-ab22-251850a41ecb" />
