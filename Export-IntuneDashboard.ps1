@@ -41,6 +41,8 @@
 
 .EXECUTION
 
+Create and assign detection script
+Wait some days
 .\Export-IntuneDashboard.ps1 -MinimumUBR_26100 8037 -MinimumUBR_26200 8037 -OpenReport
 
 
