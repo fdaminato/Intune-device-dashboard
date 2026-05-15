@@ -60,7 +60,7 @@ param(
 
     [string]$BitLockerRemediationName = "DaaS - Detection - Bitlocker - Get status",
 
-    [int]$MaxBitLockerRunStates = 3500,
+    [int]$MaxBitLockerRunStates = 5000,
 
     [int]$MaxDefenderDetailQueries = 5000,
 
