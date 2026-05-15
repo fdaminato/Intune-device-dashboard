@@ -41,9 +41,7 @@
 
 .EXECUTION
 
-Create and assign detection script
-Wait some days
-.\Export-IntuneDashboard.ps1 -MinimumUBR_26100 8037 -MinimumUBR_26200 8037 -OpenReport
+.\Export-IntuneDashboard.ps1 -MinimumUBR_26100 8037 -MinimumUBR_26200 8037 -MaxBitLockerRunStates 5000 -MaxDefenderDetailQueries 5000 -MaxInventoryRunStates 5000 -MaxSecureBootRunStates 5000 -OpenReport
 
 
 #>
@@ -62,7 +60,7 @@ param(
 
     [string]$BitLockerRemediationName = "DaaS - Detection - Bitlocker - Get status",
 
-    [int]$MaxBitLockerRunStates = 5000,
+    [int]$MaxBitLockerRunStates = 3500,
 
     [int]$MaxDefenderDetailQueries = 5000,
 
@@ -7713,7 +7711,7 @@ function openDeviceDrawer(deviceId) {
 
     if (isDellDevice(d)) {
         hardwareRows.push(
-            ["Dell Certificate SB 2023 readiness", d.DellSB2023Readiness],
+            ["Dell SB 2023 readiness", d.DellSB2023Readiness],
             ["Dell product", d.DellSB2023Product],
             ["Dell platform", d.DellSB2023Platform],
             ["Dell required BIOS", d.DellSB2023RequiredBios],
@@ -7725,7 +7723,7 @@ function openDeviceDrawer(deviceId) {
 
     if (isHPDevice(d)) {
         hardwareRows.push(
-            ["HP Certificate SB 2023 readiness", d.HPSB2023Readiness],
+            ["HP SB 2023 readiness", d.HPSB2023Readiness],
             ["HP product", d.HPSB2023Product],
             ["HP marker", d.HPSB2023Marker],
             ["HP current BIOS", d.HPSB2023CurrentBios],
